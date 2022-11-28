@@ -1,0 +1,788 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200, 300, 400, 500, 600, 700, 800, 900&display=swap');
+
+@font-face {
+    font-family: 'ColorTube';
+    src: url(../fonts/ColorTube.otf);
+    font-family: MomCakeB;
+    src: url(../fonts/MomcakeBold.otf);
+    font-family: MomCakeT;
+    src: url(../fonts/MomcakeThin.otf);
+  }
+
+.logo{
+    height: 45px;
+}
+
+.intro-img {
+    width: 50%;
+    float: right;
+  }
+
+.Khayest{
+    height: 45px;
+    opacity: 0.8;
+}
+
+.NK{
+    height: 75px;
+    opacity: 0.8;
+}
+
+.AFNH{
+    height: 65px;
+    opacity: 0.8;
+}
+
+.zmedia{
+    height: 60px;
+    opacity: 0.8;
+}
+
+.failed{
+    height: 90px;
+    opacity: 0.8;
+}
+
+.hashicorp{
+    height: 50px;
+    opacity: 0.8;
+}
+
+.tonido{
+    height: 40px;
+    opacity: 0.8;
+}
+
+/* Banner SVG Image */
+.banner-img{
+    height: 30px;
+}
+
+.banner-img .banner-svg{
+    height: 350px;
+    position: relative;
+    left: 450px;
+    top: 200px;
+}
+
+@media only screen and (max-width: 1050px){
+    .banner-img{
+        height: 50;
+        position: relative;
+        left: 50px;
+    }
+    
+    .banner_text_iner{
+        position: relative;
+        top: -40px;
+        left: -10px;
+    }
+
+    .banner-img .banner-svg{
+        height: 250px;
+        position: relative;
+        left: 400px;
+        top: 190px;
+    }
+
+    .Khayest{
+        height: 40px;
+        opacity: 0.6;
+    }
+    
+    .linkedin{
+        height: 90px;
+        opacity: 0.6;
+    }
+    
+    .AFNH{
+        height: 50px;
+        opacity: 0.6;
+    }
+    
+    .zmedia{
+        height: 50px;
+        opacity: 0.6;
+    }
+    
+    .digitalocean{
+        height: 80px;
+        opacity: 0.6;
+    }
+    
+    .hashicorp{
+        height: 35px;
+        opacity: 0.6;
+    }
+    
+    .tonido{
+        height: 30px;
+        opacity: 0.6;
+    }
+    
+}
+
+@media only screen and (max-width: 1000px){
+    .banner-img{
+        height: 10px;
+        position: relative;
+        left: 50px;
+    }
+    
+    .banner_text_iner{
+        position: relative;
+        top: -70px;
+        left: -150px;
+    }
+
+    .banner-img .banner-svg{
+        height: 150px;
+        position: relative;
+        left: 300px;
+        top: 190px;
+    }
+
+    .Khayest{
+        height: 45px;
+        opacity: 0.6;
+    }
+    
+    .linkedin{
+        height: 95px;
+        opacity: 0.6;
+    }
+    
+    .AFNH{
+        height: 55px;
+        opacity: 0.6;
+    }
+    
+    .zmedia{
+        height: 55px;
+        opacity: 0.6;
+    }
+    
+    .digitalocean{
+        height: 85px;
+        opacity: 0.6;
+    }
+    
+    .hashicorp{
+        height: 40px;
+        opacity: 0.6;
+    }
+    
+    .tonido{
+        height: 35px;
+        opacity: 0.6;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .banner-img{
+        height: 30px;
+    }
+    
+    .banner-img .banner-svg{
+        height: 130px;
+        position: relative;
+        left: 30px;
+        top: 100px;
+    }
+
+    .banner_text_iner{
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+
+    .Khayest{
+        height: 40px;
+        opacity: 0.6;
+    }
+    
+    .linkedin{
+        height: 90px;
+        opacity: 0.6;
+    }
+    
+    .AFNH{
+        height: 50px;
+        opacity: 0.6;
+    }
+    
+    .zmedia{
+        height: 50px;
+        opacity: 0.6;
+    }
+    
+    .digitalocean{
+        height: 80px;
+        opacity: 0.6;
+    }
+    
+    .hashicorp{
+        height: 35px;
+        opacity: 0.6;
+    }
+    
+    .tonido{
+        height: 30px;
+        opacity: 0.6;
+    }
+}
+    
+
+@media only screen and (max-width: 400px){
+.banner-img{
+    height: 40px;
+}
+
+.banner-img .banner-svg{
+    height: 140px;
+    position: relative;
+    left: 0px;
+    top: 130px;
+}
+
+.banner_text_iner{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.Khayest{
+    height: 35px;
+    opacity: 0.6;
+}
+
+.linkedin{
+    height: 80px;
+    opacity: 0.6;
+}
+
+.AFNH{
+    height: 40px;
+    opacity: 0.6;
+}
+
+.zmedia{
+    height: 40px;
+    opacity: 0.6;
+}
+
+.digitalocean{
+    height: 70px;
+    opacity: 0.6;
+}
+
+.hashicorp{
+    height: 30px;
+    opacity: 0.6;
+}
+
+.tonido{
+    height: 28px;
+    opacity: 0.6;
+}
+
+}
+
+@media only screen and (max-width: 350px){
+    .banner-img{
+        height: 30px;
+    }
+    
+    .banner-img .banner-svg{
+        height: 150px;
+        position: relative;
+        left: -30px;
+        top: 100px;
+    }
+
+    .Khayest{
+        height: 30px;
+        opacity: 0.6;
+    }
+    
+    .linkedin{
+        height: 70px;
+        opacity: 0.6;
+    }
+    
+    .AFNH{
+        height: 40px;
+        opacity: 0.6;
+    }
+    
+    .zmedia{
+        height: 40px;
+        opacity: 0.6;
+    }
+    
+    .digitalocean{
+        height: 60px;
+        opacity: 0.6;
+    }
+    
+    .hashicorp{
+        height: 30px;
+        opacity: 0.6;
+    }
+    
+    .tonido{
+        height: 30px;
+        opacity: 0.6;
+    }
+}
+
+.creative_img{
+    position: relative;
+    left: 100px;
+}
+
+.creative_part_text{
+    position: relative;
+    left: 100px;
+}
+
+@media only screen and (max-width: 350px){
+.creative_img{
+    position: relative;
+    left: 0;
+}
+
+.creative_part_text{
+    position: relative;
+    left: 0;
+    text-align: center;
+}
+}
+
+@media only screen and (max-width: 400px){
+    .creative_img{
+    position: relative;
+    left: 0;
+    }
+    
+    .creative_part_text{
+    position: relative;
+    left: 0;
+    text-align: center;
+    }
+    }
+
+@media only screen and (max-width: 450px){
+    .creative_img{
+    position: relative;
+    left: 0;
+}
+        
+.creative_part_text{
+    position: relative;
+    left: 0;
+    text-align: center;
+}
+}
+
+@media only screen and (max-width: 1000px){
+    .creative_img{
+        position: relative;
+        left: 0;
+    }
+            
+    .creative_part_text{
+        position: relative;
+        left: 0;
+        text-align: center;
+    }
+
+    .footer-area .single_contact_info p{
+        font-size: 20px;
+    }
+    }
+
+    @media only screen and (max-width: 1050px){
+        .creative_img{
+        position: relative;
+        left: 0;
+    }
+            
+    .creative_part_text{
+        position: relative;
+        left: 0;
+        text-align: center;
+    }
+    }
+
+    @media only screen and (max-width: 350px){
+        .creative_img{
+            position: relative;
+            left: 0;
+        }
+        }
+/* /SVGs Media Queries Ends */
+
+/* Our Services */
+
+
+/* Footer CSS */
+.footerlogo{
+    height: 50px;
+}
+
+.footer-area .social_icon{
+    position: relative;
+    bottom:25px;
+}
+
+.footer-area .social_icon a{
+    padding: 20px;
+}
+
+@media only screen and (max-width:400px){
+    .footer-area{
+        min-height: 100px;
+    }
+    .footerlogo{
+        height: 40px;
+        position: relative;
+        left: 120px; 
+    }
+    
+    .footer-area .social_icon{
+        position: relative;
+        bottom: 50px;
+        left: 110px;
+    }
+    
+    .footer-area .social_icon a{
+        padding: 10px;
+    }
+    .footer-area .single_contact_info{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (max-width:430px){
+    .footer-area{
+        min-height: 100px;
+    }
+    .footerlogo{
+        height: 40px;
+        position: relative;
+        left: 140px; 
+    }
+    
+    .footer-area .social_icon{
+        position: relative;
+        bottom: 50px;
+        left: 130px;
+    }
+    
+    .footer-area .social_icon a{
+        padding: 10px;
+    }
+    .footer-area .single_contact_info{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (max-width:380px){
+    .footer-area{
+        min-height: 100px;
+    }
+    .footerlogo{
+        height: 40px;
+        position: relative;
+        left: 120px; 
+    }
+    
+    .footer-area .social_icon{
+        position: relative;
+        bottom: 50px;
+        left: 110px;
+    }
+    
+    .footer-area .social_icon a{
+        padding: 10px;
+    }
+    .footer-area .single_contact_info{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (max-width:330px){
+    .footer-area{
+        min-height: 100px;
+    }
+    .footerlogo{
+        height: 40px;
+        position: relative;
+        left: 90px; 
+    }
+    
+    .footer-area .social_icon{
+        position: relative;
+        bottom: 50px;
+        left: 80px;
+    }
+    
+    .footer-area .social_icon a{
+        padding: 10px;
+    }
+    .footer-area .single_contact_info{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+}
+
+
+/* Footer CSS ENDS */
+
+.cform{
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: rgb(46, 107, 212);
+}
+
+.cform-span:before{
+    content: '';
+    animation: animate infinite 8s;
+}
+@keyframes animate{
+    0%{
+        content: "Asutrio\00AE";
+        color: rgb(121, 41, 11);
+    }
+    25%{
+        content: 'Innovation';
+        color: rgb(32, 204, 195);
+    }
+    50%{
+        content: 'The Future';
+        color: rgb(129, 11, 110);
+    }
+    75%{
+        content: 'Your Dreams';
+        color: rgb(175, 18, 18);
+    }
+    100%{
+        content: 'Your Goals'; 
+        color: rgb(5, 27, 44);
+        
+    }
+}
+
+body.page-id-3 {
+    background-image: url('../img/ales-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body.page-id-4 {
+    background-image: url('../img/intro-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    /* Message Page */
+.messageimg{
+    height: 60px;
+}
+
+.messagelogo{
+    height: 200px;
+    position: relative;
+    top: 120px;
+    left: 450px;
+}
+.messagetext h1{
+    position: relative;
+    top: 410px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(0, 128, 202);
+}
+
+.messagetext p{
+    position: relative;
+    top: 370px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color: rgb(79, 166, 216);
+}
+
+@media only screen and (max-width:330px){
+    .messageimg{
+        height: 30px;
+    }
+    
+    .messagelogo{
+        height: 250px;
+        position: relative;
+        top:150px;
+        left: 0;
+    }
+    .messagetext{
+        padding-top: 20px;
+    }
+    .messagetext h1{
+        position: relative;
+        top: 520px;
+        left: 200px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        color: rgb(0, 128, 202);
+    }
+    
+    .messagetext p{
+        position: relative;
+        top: 500px;
+        left: 200px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 35px;
+        color: rgb(79, 166, 216);
+    }
+}
+
+@media only screen and (min-width:370px) and (max-width:380px){
+    .messageimg{
+        height: 30px;
+    }
+    
+    .messagelogo{
+        height: 250px;
+        position: relative;
+        top:150px;
+        left: 0;
+    }
+    .messagetext{
+        padding-top: 20px;
+    }
+    .messagetext h1{
+        position: relative;
+        top: 520px;
+        left: 170px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        color: rgb(0, 128, 202);
+    }
+    
+    .messagetext p{
+        position: relative;
+        top: 500px;
+        left: 170px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 35px;
+        color: rgb(79, 166, 216);
+    }
+}
+
+@media only screen and (min-width:400px) and (max-width:420px){
+    .messageimg{
+        height: 30px;
+    }
+    
+    .messagelogo{
+        height: 250px;
+        position: relative;
+        top:150px;
+        left: 0;
+    }
+    .messagetext{
+        padding-top: 20px;
+    }
+    .messagetext h1{
+        position: relative;
+        top: 520px;
+        left: 150px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        color: rgb(0, 128, 202);
+    }
+    
+    .messagetext p{
+        position: relative;
+        top: 500px;
+        left: 150px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 35px;
+        color: rgb(79, 166, 216);
+    }
+}
+
+@media only screen and (min-width:700px) and (max-width:780px){
+    .messageimg{
+        height: 100px;
+    }
+    
+    .messagelogo{
+        height: 200px;
+        position: relative;
+        top:120px;
+        left: 90px;
+    }
+    .messagetext{
+        padding-top: 20px;
+    }
+    .messagetext h1{
+        position: relative;
+        top: 400px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        color: rgb(0, 128, 202);
+    }
+    
+    .messagetext p{
+        position: relative;
+        top: 400px;;
+        font-family: 'Poppins', sans-serif;
+        font-size: 35px;
+        color: rgb(79, 166, 216);
+    }
+}
+
+@media only screen and (min-width:1000px) and (max-width:1050px){
+    .messageimg{
+        height: 100px;
+    }
+    
+    .messagelogo{
+        height: 200px;
+        position: relative;
+        top:120px;
+        left: 230px;
+    }
+    .messagetext{
+        padding-top: 20px;
+    }
+    .messagetext h1{
+        position: relative;
+        top: 400px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        color: rgb(0, 128, 202);
+    }
+    
+    .messagetext p{
+        position: relative;
+        top: 400px;;
+        font-family: 'Poppins', sans-serif;
+        font-size: 35px;
+        color: rgb(79, 166, 216);
+    }
+}

@@ -1,0 +1,103 @@
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style inputs with type="text", select elements and textareas */
+  input[type=email], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #00d089;
+    color: white;
+    padding: 20px 70px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    left: 470px;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #0042ff;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .cont-form {
+    border-radius: 5px;
+    background-color: #020f1d;
+    padding: 20px;
+    color: #00d089;
+  }
+
+  @media only screen and (min-width: 320px) and (max-width: 350px){
+    input[type=submit] {
+      position: relative;
+      left: 35px;
+    }
+    .cform{
+      font-family: 'Poppins', sans-serif;
+      font-size: 50px;
+  }
+  }
+
+  @media only screen and (min-width: 350px) and (max-width: 377px){
+    input[type=submit] {
+      position: relative;
+      left: 58px;
+    }
+      .cform{
+        font-family: 'Poppins', sans-serif;
+        font-size: 60px;
+    }
+  }
+
+  @media only screen and (min-width: 400px) and (max-width: 450px){
+    input[type=submit] {
+      position: relative;
+      left: 80px;
+    }
+  }
+
+  @media only screen and (max-width: 550px){
+    
+  }
+
+  @media only screen and (max-width: 650px){
+    
+  }
+
+  @media only screen and (min-width: 750px) and (max-width: 770px){
+    input[type=submit] {
+      position: relative;
+      left: 230px;
+    }
+    .cform{
+      font-family: 'Poppins', sans-serif;
+      font-size: 60px;
+  }
+  }
+
+  @media only screen and (min-width: 1000px) and (max-width: 1050px){
+    input[type=submit] {
+      position: relative;
+      left: 360px;
+    }
+  }

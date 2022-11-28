@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200, 300, 400, 500, 600, 700, 800, 900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.servicebody
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    margin-bottom: 70px;
+    /*background: linear-gradient(#fff,#0088ff 50%, #0088ff 50%, 
+    #fff 100%);*/
+}
+
+.servicecont 
+{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.servicecont .box 
+{
+    position: relative;
+    width: 320px;
+    background: #fff;
+    padding: 100px 40px 60px;
+    box-shadow: 0 15px 45px rgba(0,0,0,.1);
+}
+
+.servicecont .box h3{
+    text-align: center;
+}
+
+.servicecont .box p{
+    text-align: center;
+}
+
+@media only screen and (min-width: 350px) and (max-width:370px) {
+    .our_service_body
+    {
+        width: 400px;
+        margin-top: 40px;
+    }
+        .servicebody
+    {
+        width: 300px;
+        margin-left: 20px;
+        margin-top: 35px;
+    }
+        .servicecont .box 
+    {
+        width: 400px;
+        position: relative;   
+        left: 0;
+        margin-top: 20px;
+    }
+        .our_service_body h1
+    {
+        position: relative;
+        left: -10;
+    }
+}    
+
+@media only screen and (min-width: 370px) and (max-width:380px) {
+    .our_service_body
+    {
+        width: 400px;
+        margin-top: 40px;
+    }
+        .servicebody
+    {
+        width: 300px;
+        margin-left: 30px;
+        margin-top: 35px;
+    }
+        .servicecont .box 
+    {
+        width: 300px;
+        margin-top: 20px;
+    }
+        .our_service_body h1
+    {
+        position: relative;
+        left: -10;
+    }
+}    
+
+@media only screen and (min-width: 300px) and (max-width:400px) {
+    .our_service_body
+{
+    width: 100%;
+    margin-top: 40px;
+}
+    .servicebody
+{
+    width: 320px;
+    margin-top: 35px;
+}
+    .servicecont .box 
+{
+    width: 300px;
+    position: relative;   
+    left: 0;
+    margin-top: 20px;
+}
+    .our_service_body h1
+{
+    position: relative;
+    left: -10;
+}
+}
+
+@media only screen and (min-width:400px) and (max-width:500px){
+    .our_service_body
+    {
+        margin-top: 40px;
+    }
+        .servicebody
+    {
+        margin-top: 35px;
+    }
+        .servicecont .box 
+    {
+        position: relative;   
+        left: 30px;
+        margin-top: 20px;
+    }
+        .our_service_body h1
+    {
+        position: relative;
+        left: -10;
+    }
+}
+
+@media only screen and (max-width: 800px) and (min-height: 1020px) and (max-height: 1050px){
+    .our_service_body
+{
+    margin-top: 40px;
+}
+    .servicebody
+{
+    min-height: 40vh;
+}
+    .servicecont .box 
+{
+    width: 210px;
+}
+}
+
+
+
+@media only screen and (min-width: 1000px){
+    .our_service_body
+{
+    margin-top: 40px;
+}
+    .servicebody
+{
+    min-height: 40vh;
+}
+    .servicecont .box 
+{
+    width: 300px;
+}
+}
+
+
+.servicecont .box:before 
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:#00d089;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+}
+.servicecont .box:hover:before 
+{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+}
+.servicecont .box h3
+{
+    padding-bottom: 10px;
+    position: relative;
+    font-size: 1.5em;
+    z-index: 2;
+    color: #333;
+    transition: 0.5s;
+}    
+.servicecont .box p
+{
+    position: relative;
+    z-index: 2;
+    color: #555;
+    transition: 0.5s;
+}    
+.servicecont .box:hover h3,
+.servicecont .box:hover p
+{
+    color: #fff;
+}
+
+.our_service_body h1
+{
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: -0.3vh;
+    color: #00d089;
+}
+
+
+@media only screen and (max-width: 325px){
+    .our_service_body
+{
+margin-top: 40px;
+}
+.servicebody
+{
+min-height: 40vh;
+}
+.servicecont .box 
+{
+width: 300px;
+margin-bottom: 20px;
+}
+}
